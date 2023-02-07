@@ -1,0 +1,10 @@
+---
+sourceLocationPrefix: "C:\\Development\\codescanning"
+baselineLinesOfCode: 12
+unicodeNewlines: false
+columnKind: "utf16"
+primaryLanguage: "csharp"
+creationMetadata:
+  sha: "0c4ee6e877c5c00b249a78c43209019638f05028"
+  cliVersion: "2.12.1"
+  creationTime: "2023-02-07T18:08:19.804150900Z"
