@@ -1,0 +1,13 @@
+
+    name: "Custom CodeQL Config"
+    
+    queries:
+    - uses: security-and-quality
+    
+    paths:
+    - CodeScanningSolutiuon
+    
+    paths-ignore:
+    - .vscode/.
+    
+
