@@ -3,11 +3,12 @@
     
     queries:
     - uses: security-and-quality
+    - name: Use my custom queries
+    - uses: codeql/custom-queries/csharp
     
     paths:
     - CodeScanningSolutiuon
     
-    paths-ignore:
-    - .vscode/.
+    
     
 
