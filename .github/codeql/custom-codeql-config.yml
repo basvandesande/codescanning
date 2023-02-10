@@ -4,7 +4,7 @@
     queries:
     - uses: security-and-quality
     - name: Use my custom queries
-      uses: ./codeql/custom-queries/csharp/rendundant-if-statements.ql
+      uses: ./codeql/custom-queries/rendundant-if-statements.ql
     
     paths:
     - CodeScanningSolutiuon
