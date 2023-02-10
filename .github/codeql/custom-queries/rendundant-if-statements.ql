@@ -1,6 +1,5 @@
 import csharp
 
-from IfStmt ifstmt, BlockStmt block
-where ifstmt.getThen() = block and
-  block.isEmpty()
-select ifstmt, "This 'if' statement is redundant."
+from BlockStmt blk
+where blk.isEmpty()
+select blk, "This 'if' statement is redundant."
