@@ -4,7 +4,7 @@
     queries:
     - uses: security-and-quality
     - name: Use my custom queries
-      uses: custom-queries/rendundant-if-statements.ql
+      uses: ./custom-queries/rendundant-if-statements.ql
     
     paths:
     - CodeScanningSolutiuon
