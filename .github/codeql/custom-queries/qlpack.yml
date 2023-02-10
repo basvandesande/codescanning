@@ -1,5 +1,5 @@
 name: basvandesande/csharp-custom-queries
 version: 0.0.1
 dependencies:
-  codeql/csharp: "*"
+  codeql/csharp-all: "*"
 extractor: csharp
