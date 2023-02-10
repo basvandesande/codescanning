@@ -2,8 +2,8 @@
     name: "Custom CodeQL Config"
     
     queries:
-    - uses: security-and-quality
-    - uses: ./custom-queries/rendundant-if-statements.ql
+    - uses: +security-and-quality
+    - uses: ./custom-queries
     
     paths:
     - CodeScanningSolutiuon
