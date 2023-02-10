@@ -50,7 +50,7 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
-        queries: +security-and-quality, ./.github/codeql/custom-queries
+        queries: +security-and-quality, .github/codeql/custom-queries
        
        
        
