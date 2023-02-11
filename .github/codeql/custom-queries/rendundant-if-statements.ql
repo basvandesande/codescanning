@@ -7,8 +7,7 @@
  *       bas
  */
 
-
-import csharp
+ import csharp
 
 from BlockStmt blk
 where blk.isEmpty()

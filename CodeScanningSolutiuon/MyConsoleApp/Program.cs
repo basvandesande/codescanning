@@ -25,7 +25,7 @@
             }
             else
             {
-               Console.WriteLine("some random code");     
+               Console.WriteLine("some random code inserted by me");     
             }
 
             Console.ReadKey();
