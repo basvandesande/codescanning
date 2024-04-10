@@ -7,5 +7,7 @@ version: 2
 updates:
   - package-ecosystem: "nuget" # See documentation for possible values
     directory: "/" # Location of package manifests
+    # allow for max 5 pull requests at the time
+    open-pull-requests-limit: 5
     schedule:
       interval: "weekly"
